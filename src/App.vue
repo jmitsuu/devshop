@@ -4,7 +4,7 @@ import Menu from "../src/components/Menu.vue"
 </script>
 
 <template>
-  <section class="flex-1  bg-gradient-to-r bg-gray-200  ">
+  <section class="flex-1  bg-gradient-to-r bg-[#fefbf6]  ">
   <header>
     <Menu/>
 </header>

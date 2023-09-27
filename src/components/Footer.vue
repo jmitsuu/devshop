@@ -21,9 +21,9 @@ const about = [
 
 <template>
   <footer
-    class="w-full  pt-5 bg-slate-100 border-t-[0.1rem] border-gray-900 mt-3 h-[300px]"
+    class="w-full  pt-5 bg-[#f5e8e3] border-t-[0.1rem] full border-gray-900 mt-3 xl:h-[300px]"
   >
-    <div class=" w-2/3 relative h-full flex justify-between mx-auto p-4">
+    <div class=" w-2/3 relative h-full xl:flex justify-between mx-auto p-4">
       <div>
         <h1 class="text-[0.8rem] font-bold uppercase text-gray-800 mb-3">
           Atendimento ao Cliente
@@ -79,7 +79,7 @@ const about = [
           />
         </div>
       </div>
-      <div class=" w-2/3 absolute bottom-0 border-t-2 p-5 text-[0.8rem]">
+      <div class=" w-2/3 xl:absolute bottom-0 border-t-2 p-5 text-[0.8rem]">
 
         @Todos os direitos reservados a ShopDev
 

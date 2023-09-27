@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue';
 import Produtos from '../views/Produtos.vue';
-import Masculino from "../views/masculino/Masculino.vue";
-import Feminino from "../views/feminino/Feminino.vue";
+import Masculino from "../views/vestuario/Masculino.vue";
+import Feminino from "../views/vestuario/Feminino.vue";
 import Joias from "../views/joias/Joias.vue";
-import Eletronicos from "../views/Eletronicos/Eletronicos.vue";
+import Eletronicos from "../views/eletronicos/Eletronicos.vue";
 import About from "../views/About.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,11 +25,11 @@ const router = createRouter({
       component: About
     },
     {
-      path: '/masculino/Masculino',
+      path: '/vestuario/Masculino',
       component: Masculino
     },
     {
-      path: '/feminino/Feminino',
+      path: '/vestuario/Feminino',
       component: Feminino
     },
     {
