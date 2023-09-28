@@ -5,7 +5,7 @@ interface Props {
   title: string;
   price: number;
   img: string;
-  description?: string;
+  description?: string | undefined;
   count?: number;
   rate?: number;
 }
@@ -18,8 +18,11 @@ const props = defineProps<Props>();
     <div class="flex flex-col justify-between items-center">
       <img :src="props.img" class="rounded-lg h-44 w-44 mb-4" />
 
-      <p class="text-gray-600 text-xs xl:text-[1.0rem]">{{ props.description }}<span
-          v-if="props.description?.length > 50">...</span></p>
+      <p class="text-gray-600 text-xs xl:text-[1.0rem]">{{ props.description }}
+        <!-- <span
+          v-if="props.description?.length > 50">...</span> -->
+        
+        </p>
       <p class="text-gray-900 font-bold text-[1.3rem]">
         <span class="font-normal text-[1.0rem]" v-if="props.rate">Nota</span>
         {{ rate }}
