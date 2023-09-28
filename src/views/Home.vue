@@ -29,15 +29,15 @@ import "vueperslides/dist/vueperslides.css";
   </section>
 
   <section class="justify-center">
-    <h1 class="text-[3rem] text-gray-900 shadow-gray-300 shadow-md p-6">
-      Lançamentos
+    <h1 class="text-[3rem] text-gray-600 shadow-gray-300 shadow-md p-6">
+      Novidades
     </h1>
     <div
-      class="flex justify-center items-center bg-opacity-10 container mx-auto bg-slate-700 mt-3 rounded-md p-4"
+      class="flex justify-center items-center bg-opacity-10 container mx-auto mt-3 border rounded-md p-4"
     >
       <div class="grid xl:grid-cols-6 grid-cols-1 md:grid-cols-3 sm:grid-cols-2 p-4 gap-5">
         <div
-          class="gap-3 p-5 justify-center items-center rounded-xl cursor-pointer bg-orange-50 hover:bg-opacity-100 transition duration-500 bg-opacity-50"
+          class="gap-3 p-5 justify-center items-center rounded-xl cursor-pointer bg-gray-200  hover:bg-black hover:bg-opacity-10 transition duration-500 bg-opacity-50"
           v-for="item in dataItems"
           :key="item.id"
         >
